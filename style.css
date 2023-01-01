@@ -1,0 +1,135 @@
+/* headeing */
+body{
+    background-color: rgb(253, 213, 219);
+}
+header {
+    background: url('bac.jpg') no-repeat center center/cover;
+    height: 800px;
+}
+
+/* nav here */
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img {
+    width: 55px;
+    height: 55px;
+}
+
+#logo span {
+    color: rgb(81, 36, 36);
+    margin: 0px 20px;
+    font-size: 1.7rem;
+}
+
+header nav {
+    display: flex;
+    background-color: rgba(231, 196, 202, 0.7);
+    padding-bottom: 0;
+}
+
+header ul {
+    display: flex;
+    text-align: center;
+    width: 80%;
+}
+
+header ul li {
+    padding: 0;
+    color: rgb(81, 36, 36);
+    list-style: none;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+/* songs here */
+.p img {
+    margin-left: 7px;
+    height: 50px;
+    width: 50px;
+    border-radius: 27px;
+}
+
+.poems {
+    display: flex;
+    flex-direction: column;
+}
+
+#ph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 50%;
+}
+
+#j {
+    font-size: 2.8rem;
+}
+
+.hi {
+    margin: 0px 0px 20px 110px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 2px solid black;
+}
+
+.p {
+    margin: 13px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    background-color: rgb(126, 89, 89);
+    border-radius: 8px;
+    width: 80%;
+}
+
+.p span {
+    margin: 0px 12px 0px 12px;
+    /* color:white; */
+}
+
+.k {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    /* color:white; */
+}
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+}
+
+footer input {
+    width: 80%;
+    cursor: pointer;
+    color: black;
+}
+
+footer div i {
+    color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+/* lyrics */
+#lyrics{
+    text-align: center;
+}
+/* gift */
+.giphy-embed{
+    float:right;
+    display: none;
+}
+.far secplay fa-play-circle{
+    cursor: pointer;
+}
+
